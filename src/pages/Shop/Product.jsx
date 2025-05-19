@@ -55,7 +55,7 @@ const Product = ({ headline }) => {
           </div>
         </div>
         {/* product grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 py-10">
           {filterProduct.slice(0, visibleProduct).map((product, index) => (
             <ProductCard key={index} product={product} />
           ))}
