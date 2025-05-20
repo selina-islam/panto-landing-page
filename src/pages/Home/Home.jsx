@@ -4,7 +4,6 @@ import WhyChoose from './WhyChoose'
 import Product from '../Shop/Product'
 import Experiences from './Expreiences'
 import Meaterial from './Meaterial'
-import Testimonials from './Testimonials'
 
 const Home = () => {
   return (
@@ -14,7 +13,6 @@ const Home = () => {
       <Product headline='Best Selling Product' />
       <Experiences />
       <Meaterial/>
-      <Testimonials/>
     </section>
   )
 }
