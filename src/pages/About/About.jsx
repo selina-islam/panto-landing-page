@@ -3,7 +3,7 @@ import Expreiences from "../Home/Expreiences";
 
 const About = () => {
   return (
-    <aection>
+    <section>
       {/* banner */}
       <div className='bg-[url("/about-background.jpg")] bg-cover bg-no-repeat flex items-center justify-center h-[400px] w-full'>
         <div>
@@ -14,7 +14,7 @@ const About = () => {
       </div>
       {/* Experience section */}
       <Expreiences />
-    </aection>
+    </section>
   );
 };
 

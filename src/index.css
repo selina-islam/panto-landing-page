@@ -8,4 +8,17 @@
         --color-bg: #f7f7f7;
       
 }
+/* Tailwind-based styling */
+.swiper-button-next,
+.swiper-button-prev {
+ background-color: bisque ;
+ padding: 30px;
+ border-radius: 50%;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 4px; /* default is big */
+}
+
 
