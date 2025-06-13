@@ -10,7 +10,7 @@ const ProductCard = ({ product }) => {
   const { addToCart } = useContext(CartContext)
   
   return (
-    <div className="md:px-4 lg:px-16 px-2">
+    <div className="md:px-4 lg:px-16 px-2 !dark:text-black">
       {/* Product image section */}
 
       <div className="bg-[#FAFAFA]">
@@ -21,10 +21,10 @@ const ProductCard = ({ product }) => {
       <div className="p-6 bg-white shadow-sm">
         {/* Product category */}
 
-        <h4 className="mb-1 text-base">{product.category}</h4>
+        <h4 className="mb-1 text-base dark:text-gray-800">{product.category}</h4>
         {/* Product name */}
 
-        <h3 className="font-semibold text-xl mb-2">{product.name}</h3>
+        <h3 className="font-semibold text-xl mb-2 dark:text-black">{product.name}</h3>
         {/* Product rating using the Rating component */}
 
         <Rating rating={product.rating} />

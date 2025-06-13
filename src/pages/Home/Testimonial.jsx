@@ -62,8 +62,8 @@ const Testimonial = () => {
                     alt=""
                     className="size-20 ring-2 ring-primary rounded-full absolute -top-10"
                   />
-                  <h3 className="pt-9 font-extrabold">{review.name}</h3>
-                  <p className="py-2 text-center">{review.review}</p>
+                  <h3 className="pt-9   font-extrabold">{review.name}</h3>
+                  <p className="py-2 text-center dark:text-gray-600">{review.review}</p>
                   <Rating rating={review.rating} />
                 </div>
               </div>
