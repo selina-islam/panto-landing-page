@@ -3,7 +3,7 @@ import Button from "../../components/Button";
 
 const WhyChoose = () => {
   return (
-    <section className="container mx-auto px-3 md:px-0">
+    <section className="container mx-auto md:px-4 lg:px-16 px-2">
       {/* Parent grid layout with spacing */}
       <div className="my-24 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 items-center gap-8 md:gap-12 text-left">
         <div>

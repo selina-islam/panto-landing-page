@@ -1,12 +1,16 @@
-import React from "react";
+import React, { useContext } from "react";
+import { CartContext } from "../../context/CartContext";
+
 import Rating from "../../components/Rating";
 import { FiPlus } from "react-icons/fi"; // Plus icon for the add-to-cart
 
 // ProductCard component receives a single 'product' object as a prop
 
 const ProductCard = ({ product }) => {
+  const { addToCart } = useContext(CartContext)
+  
   return (
-    <div>
+    <div className="md:px-4 lg:px-16 px-2">
       {/* Product image section */}
 
       <div className="bg-[#FAFAFA]">
@@ -37,7 +41,12 @@ const ProductCard = ({ product }) => {
           </p>
           {/* Plus button could be used to add product to cart  */}
 
-          <button className="bg-secondary text-white p-2 rounded-full hover:bg-black/65">
+          <button
+            onClick={() => {
+              addToCart(product);
+            }}
+            className="bg-secondary text-white p-2 rounded-full hover:bg-black/65"
+          >
             <FiPlus />
           </button>
         </div>

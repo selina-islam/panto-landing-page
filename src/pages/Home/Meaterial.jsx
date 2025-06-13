@@ -5,7 +5,7 @@ const Meaterial = () => {
   return (
     // Main section with responsive spacing and layout
 
-    <section className="container mx-auto my-24 flex flex-col md:flex-row items-center justify-between md:gap-20 gap-8">
+    <section className="container mx-auto my-24 flex flex-col md:flex-row items-center justify-between md:gap-20 gap-8 md:px-4 lg:px-16 px-2 bg-white">
       {/* Left content: heading, description, and button */}
 
       <div className="md:w-1/2 mx-auto">

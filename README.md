@@ -1,12 +1,29 @@
-# React + Vite
+# Panto Furniture Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, minimalistic furniture landing page built with **React** and **Vite**. This project features product browsing, category filtering, testimonials, and a shopping cart experience, styled with Tailwind CSS.
 
-Currently, two official plugins are available:
+## Screenshot
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+!(image.png)
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Responsive design with Tailwind CSS
+- Product listing with category filter and "load more"
+- Shopping cart context with add-to-cart and item count
+- Testimonials carousel (Swiper.js)
+- Light/Dark mode toggle
+- Modern UI components (React Icons)
+- Routing with React Router
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v16 or higher recommended)
+- npm
+
+### Installation
+
+1. Clone the repository: git clone https://github.com/selina-islam/panto-landing-page.git
+  

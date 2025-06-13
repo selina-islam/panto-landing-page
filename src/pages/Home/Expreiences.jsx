@@ -4,7 +4,7 @@ import Button from "../../components/Button"; // Reusable button component
 const Experiences = () => {
   return (
     // Main section with responsive layout and spacing
-    <section className="container mx-auto my-24 flex flex-col md:flex-row items-center justify-between md:gap-20 gap-8">
+    <section className="container mx-auto my-24 flex flex-col md:flex-row items-center justify-between md:gap-20 gap-8 md:px-4 lg:px-16 px-2">
       {/* Left side: Image container */}
 
       <div className="md:w-1/2 md:h-[541px]">

@@ -15,7 +15,7 @@ import Rating from "../../components/Rating";
 
 const Testimonial = () => {
   return (
-    <section className="py-6 container mx-auto">
+    <section className="py-6 container mx-auto md:px-4 lg:px-16 px-2">
       <h3 className="text-lg uppercase font-semibold text-primary text-center py-4">
         Testimonials
       </h3>

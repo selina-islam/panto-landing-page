@@ -18,7 +18,7 @@ const Rating = ({ rating }) => {
         return starIndex <= rating ? (
           <AiFillStar key={index} className="text-yellow-500" />
         ) : (
-          <AiOutlineStar className="text-gray-400" />
+          <AiOutlineStar key={index} className="text-gray-400" />
         );
       })}
     </div>

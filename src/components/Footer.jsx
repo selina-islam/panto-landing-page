@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <footer className="">
       {/* Main container with responsive grid layout */}
-      <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-8 px-4">
+      <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-8 md:px-4 lg:px-16 px-2">
         {/* Logo and company description section */}
         <div className="md:col-span-2">
           <h2 className="text-2xl font-bold mb-4 cursor-pointer">
